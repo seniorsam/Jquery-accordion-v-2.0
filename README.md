@@ -4,7 +4,7 @@
 
 ### 1 - Add the following html markup to your page.
 
-<div class="jqav2-wrapper">
+      <div class="jqav2-wrapper">
 	<div class="jqav2-item">
 		<div class="jqav2-panel-link">Panel title</div>
 		<div class="jqav2-panel-content">
@@ -17,7 +17,7 @@
 			Panel content
 		</div>			
 	</div>
-</div>
+      </div>
 
 ### 2 - Add the style.css file.
 
