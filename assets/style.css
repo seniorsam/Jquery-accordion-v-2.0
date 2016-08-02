@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700italic,700,500italic,500,300italic,300,400italic);
+
+body{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.jqav2-wrapper{
+	 width: 70%;
+     box-shadow: 0px 0px 15px #d2d2d2;
+	 margin: 0px auto;
+    border: #bfbfbf solid thin;
+}
+
+.jqav2-panel-link{
+	width: inherit;
+	padding:15px;
+	background-color: #777777;
+	color:#fff;
+	text-align: center;
+	cursor: pointer;
+	transition:all 300ms;
+    box-shadow: 0px 5px 5px #eaeaea;
+    margin-bottom: 2px;
+}
+
+.jqav2-panel-link:hover{
+	background-color: #3399FF;
+	transition:all 300ms;
+}
+
+.jqav2-panel-content{
+	width: inherit;
+	padding: 15px;
+	background-color: #fff;
+	display: none;
+	color: #969696;
+}
+
+.jqav2-wrapper .jqav2-item:first-child .jqav2-panel-content {
+	display: block;
+}
+
+.jqav2-wrapper .jqav2-item:first-child .jqav2-panel-link {
+	background-color: #3399FF;
+}
+
+h1{
+	color: #969696;
+	text-align: center;
+}
+
+p{
+	color: #969696;
+	display:block;
+	text-align:center;
+	margin-top: 15px; 
+}
+
+p a {
+	color: #3399FF;
+	text-decoration: none;
+}
