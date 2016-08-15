@@ -69,4 +69,14 @@
 		});
 	</script>
 
+### Note
+
+The accordion using default options bundled in the script, and i'm saying that because i want to clarify that using options object inside the slider function is optional, the slider will work fine with the default options if you just added only the function as follows
+
+	<script>
+		window.jqav2();
+	</script>
+
+adding options is up to you, in case if you wanted to change the look or manipulate any options from the available options i mentioned earlier. 
+
 #### Thank you
